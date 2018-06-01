@@ -1,9 +1,16 @@
-function cifrarClick(){
+cifrarClick= () =>{
     let frase =document.getElementById("text").value; /*Llamo al texto ingresado por el usuario */
     frase=frase.toUpperCase();/*convierto el string ingresado a mayusculas*/
-    let offset= 2;
+    let off= document.getElementById("offset").value;
     let encodeMessage="";
     
-    document.getElementById("textoListo").innerHTML=window.cipher.encode(frase , offset);
+    document.getElementById("textoListo").innerHTML=window.cipher.encode(frase , off);
 }
-/* Acá va tu código */
+descifrarClick= () =>{
+    let frase =document.getElementById("text").value; /*Llamo al texto ingresado por el usuario */
+    frase=frase.toUpperCase();/*convierto el string ingresado a mayusculas*/
+    let off= document.getElementById("offset").value;
+    let encodeMessage="";
+    
+    document.getElementById("textoListo").innerHTML=window.cipher.decode(frase , off);
+}

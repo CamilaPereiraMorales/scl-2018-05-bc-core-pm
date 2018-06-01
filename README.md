@@ -1,4 +1,10 @@
 # Cifrado César
+# Uso de la Página
+El cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+
+En la casilla superior, va ingresado el mensaje a cifrar, luego escogemos el numero del desplazamiento que queremos para comenzar a cifrar mediante los botones.
+
+El mensaje cifrado quedara disponible para ser copiado en la casilla inferior.
 
 ## Preámbulo
 
