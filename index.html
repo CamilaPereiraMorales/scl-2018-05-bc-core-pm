@@ -10,18 +10,23 @@
     <center>
             <h1>.:Keep it Secret with Caesar cipher:.</h1>
             <p><strong> Cifrado César es un metodo para cifrar mensajes, <br> podrás escribir tu mensaje para cifrar y descifrar!!</strong></p>
-    
-  <div id="root"></div>
-  <div class="message"> 
-    <textarea placeholder="Ingresa tu mensaje aqui"></textarea>
-    
-  </div>
+            
+  <div id="root"></div> 
+   
+    <textarea id="text" placeholder="Ingresa tu mensaje aqui"></textarea>
+<br>   
+<h4>Ingresa un número</h4>
+  <textarea id= "offset"></textarea>
+  
 <br><br>
-  <button onclick = "code()"> Cifrar </button> 
-  <button onclick = "uncode()"> Descifrar </button> 
+  <button onclick ="cifrarClick()"> Cifrar </button> 
+  <button onclick ="textoDescifrado()"> Descifrar </button> 
+<br><br>
+
+  <textarea id="textoListo"></textarea>
     </center>
 
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+  <script src="app.js"></script>
+  <script src="otro.js"></script>
 </body>
 </html>

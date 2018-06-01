@@ -1,6 +1,7 @@
 body {
-    background-image: url("secret.png");
-    background-color: grey;
+    background-image: url("top-secret.png");
+    opacity: 0,1;
+    background-color: rgb(150, 146, 146);
 }
 
 h1 {
@@ -9,23 +10,24 @@ h1 {
     font-family: mentor sans,avenir;
 
 }
+
 p{
     color:white;
     font-size: 200%;
-
-}
-.message {
-
-    color:grey;
-    background-color:white;
-    border:3px;
-    width:400px;
-    height:150px;
 }
 
-textarea{
+#offset {
+    color:clear;
+    color: grey;
+    border: 5px black;
+    width: 50px;
+    height: 20px;
+}
+
+textarea {
     Color: clear;
     width: 400px;
     height: 150px;
     border:3px double black;
 }
+
